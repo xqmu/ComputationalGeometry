@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ComputationalGeometry"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\opt\;CMake Files\..\..\..\..\..\usr\local\opt\opencv3\;CMake Files\..\..\..\..\..\usr\local\opt\opencv3\share\;CMake Files\..\..\..\..\..\usr\local\opt\opencv3\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ComputationalGeometry">
+				<Option output="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/ComputationalGeometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv3/3.2.0/include"/>
+					<Add directory="/usr/local/Cellar/opencv3/3.2.0/include/opencv"/>
+					<Add directory="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 ComputationalGeometry"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ComputationalGeometry/fast">
+				<Option output="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/ComputationalGeometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv3/3.2.0/include"/>
+					<Add directory="/usr/local/Cellar/opencv3/3.2.0/include/opencv"/>
+					<Add directory="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 ComputationalGeometry/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/Shape/geo_monotone_polygon.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/Shape/geo_polygon.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/Shape/geo_triangle.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_binary_search_tree.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_convex_hull.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_dcel.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_dcel_face.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_dcel_halfedge.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_dcel_vertex.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_epsilon.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_intersection.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_persistent_rbtree.h">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_rbtree.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_shape.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_status.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_sweepline.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_sweepline_edge.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_sweepline_state.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_sweepline_vertex.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_type.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_vector2.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/geo_visualize.hpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/point_location.h">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/point_location_edge.h">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/point_location_rbtree.h">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/include/point_location_vertex.h">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/geo_dcel.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/geo_dcel_face.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/geo_dcel_halfedge.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/geo_dcel_vertex.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/geo_epsilon.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/geo_sweepline.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/geo_sweepline_edge.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/geo_sweepline_state.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/geo_sweepline_vertex.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/geo_vector2.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/geo_visualize.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/main.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/point_location.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/src/point_location_rbtree.cpp">
+			<Option target="ComputationalGeometry"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/../../../../../usr/local/opt/opencv3/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\opencv3\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/../../../../../usr/local/opt/opencv3/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\opencv3\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/../../../../../usr/local/opt/opencv3/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\opencv3\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/Xiaoqian/Documents/CS518/ComputationalGeometry/../../../../../usr/local/opt/opencv3/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\opencv3\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
